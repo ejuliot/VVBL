@@ -394,7 +394,7 @@
                             <a href="mailto:vvbl44@gmail.com" class="btn btn-default btn-lg"><i class="fa fa-envelope-o fa-fw"></i> <span class="network-name">Email</span></a>
                         </li>
                         <li>
-                            <a href="#" class="btn btn-default btn-lg"><i class="fa fa-phone fa-fw"></i> <span class="network-name">Telephone</span></a>
+                            <button type="button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#telephoneModal"><i class="fa fa-phone fa-fw"></i> <span class="network-name">Telephone</span></button>
                         </li>
                         <li>
                             <a href="http://www.facebook.com/vvbl44" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
@@ -408,6 +408,29 @@
 
     </div>
     <!-- /.banner -->
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="telephoneModal" tabindex="-1" role="dialog" aria-labelledby="telephoneModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Coordonnées téléphoniques</h4>
+          </div>
+          <div class="modal-body">
+            <ul>
+                <li>Pour renseignement pour une nouvelle inscription : Olivier Leclerc au 06 03 81 55 22.</li>
+                <li>Pour tout autre renseignement : Pierre Lafay au 02 40 33 29 01 ou 06 07 46 45 91</li>
+            </ul>
+            Merci de privilégier l'<a href="mailto:vvbl44@gmail.com">email</a> pour tout ce qui n'est pas urgent.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary">Fermer</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Footer -->
     <footer>
