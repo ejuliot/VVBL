@@ -11,6 +11,10 @@
   z-index: 10;
 }
 
+.carousel-caption p{
+  font-size: larger;
+}
+
 /* Declare heights because of positioning of img element */
 .carousel .item {
   height: 500px;
@@ -22,11 +26,23 @@
   min-width: 1000px;
   width: 2000px;
 }
+
+.carousel-inner > .item > img.first-slide ~ div p,
+.carousel-inner > .item > img.first-slide ~ div h1 {
+  color: white;
+}
+
 .carousel-inner > .item > img.second-slide {
   top: 0;
   min-width: 2000px;
   width: 2000px;
 }
+
+.carousel-inner > .item > img.third-slide ~ div p,
+.carousel-inner > .item > img.third-slide ~ div h1 {
+  color: darkblue;
+}
+
 .carousel-inner > .item > img.third-slide {
   top: 0;
   width: 1000px;
