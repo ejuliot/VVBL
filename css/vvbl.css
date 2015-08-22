@@ -29,7 +29,12 @@
 
 .carousel-inner > .item > img.first-slide ~ div p,
 .carousel-inner > .item > img.first-slide ~ div h1 {
-  color: white;
+  color: black;
+  text-shadow: 0 1px 2px white;
+}
+
+
+.carousel-caption {
 }
 
 .carousel-inner > .item > img.second-slide {
@@ -40,7 +45,8 @@
 
 .carousel-inner > .item > img.third-slide ~ div p,
 .carousel-inner > .item > img.third-slide ~ div h1 {
-  color: darkblue;
+  color: #337ab7;
+  text-shadow: 0 1px 2px white;
 }
 
 .carousel-inner > .item > img.third-slide {
