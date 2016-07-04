@@ -37,6 +37,11 @@
 .carousel-caption {
 }
 
+.carousel-inner > .item > img.second-slide ~ div p,
+.carousel-inner > .item > img.second-slide ~ div h1 {
+  color: black;
+  text-shadow: 0 1px 2px white;
+}
 .carousel-inner > .item > img.second-slide {
   top: 0;
   min-width: 2000px;
